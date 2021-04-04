@@ -1,0 +1,10 @@
+.gallery {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(4, minmax(min-content, max-content));
+    grid-template-rows: repeat(3, minmax(min-content, max-content));
+    gap: 16px;
+    margin: 92px auto 92px;
+
+    /* display: block; */
+}

@@ -1,0 +1,10 @@
+.footer__link {
+    margin-right: 18px;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+}
+
+.footer__link:last-child {
+    margin-right: 0;;
+}

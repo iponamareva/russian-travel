@@ -1,0 +1,7 @@
+div, h2, h3, img, p {
+  outline: solid 1px red;
+}
+
+section {
+  outline: solid 1px blue;
+}

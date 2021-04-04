@@ -1,0 +1,7 @@
+.cards__item-url-text {
+    /* margin: 12px 0 0; */
+    margin: 0;
+    font-size: 18px;
+    line-height: 22px;
+    text-decoration: underline;
+}
