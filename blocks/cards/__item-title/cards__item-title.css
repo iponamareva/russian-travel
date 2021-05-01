@@ -16,8 +16,8 @@
 
 @media (min-width: 320px) and (max-width: 768px) {
     .cards__item-title {
-        font-size: 32px;
-        line-height: 35px;
+        font-size: calc(32px + 10 * (100vw - 320px)/(768 - 320));
+        line-height: calc(35px + 11 * (100vw - 320px)/(768 - 320));
     }
 }
 
