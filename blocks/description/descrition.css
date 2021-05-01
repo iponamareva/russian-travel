@@ -1,0 +1,32 @@
+.description {
+    padding-left: 148px;
+    margin-bottom: 92px;
+}
+
+
+@media (max-width: 1024px) {
+    .description {
+        padding-left: 48px;
+    }
+}
+
+@media (max-width: 768px) {
+    .description {
+        padding-right: 24px;
+        padding-left: 24px;
+    }
+    
+}
+
+@media (max-width: 320px) {
+    .description {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+}
+
+@media (min-width: 1280px) {
+    .description {
+        padding-left: calc((100% - 984px) / 2);
+    }
+}

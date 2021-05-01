@@ -1,0 +1,7 @@
+.baikal__content {
+    background: url(../../../images/trains.png) rgba(0, 0, 0, 0.3);
+    background-size: cover;
+    background-blend-mode: overlay;
+    padding-top: 245px;
+    padding-bottom: 245px;
+}

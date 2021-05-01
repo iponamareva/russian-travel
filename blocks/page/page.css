@@ -4,3 +4,9 @@
     font-family: 'Helvetica Neue', Arial, sans-serif;
     padding-bottom: 24px;
 }
+
+/* @media (max-width: 720px) {
+    .page {
+        background-color: red;
+    }
+} */

@@ -1,4 +1,4 @@
-div, h2, h3, img, p {
+div, h2, h3, img, p, a, h1 {
   outline: solid 1px red;
 }
 

@@ -2,6 +2,14 @@
   font-size: 16px;
   line-height: 26,08px;
   text-align: left;
-  margin-left: 148px;
-  margin-right: 442px;
+  /* margin-left: 148px; */
+  /* margin-right: 442px; */
+  margin: 0 0 33px 0;
+  max-width: 690px;
+}
+
+@media (max-width: 768px) {
+  .description__text {
+    max-width: fit-content;
+  }
 }

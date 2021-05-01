@@ -1,0 +1,6 @@
+.baikal__color-overlay {
+    background: rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+    height: 100%;
+    z-index: 2;
+}

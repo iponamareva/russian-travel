@@ -5,18 +5,26 @@
 @import url(../blocks/header/__title/header__title.css);
 @import url(../blocks/header/__subtitle/header__subtitle.css);
 @import url(../blocks/header/__logo/header__logo.css);
+
 @import url(../blocks/header/__lang/header__lang.css);
+@import url(../blocks/header/__lang-container/header__lang-container.css);
 @import url(../blocks/header/__lang/_value/header__lang_value_ru.css);
 @import url(../blocks/header/__lang/_value/header__lang_value_en.css);
+@import url(../blocks/header/__cover-container/header__cover-container.css);
 @import url(../blocks/header/__cover-pic/header__cover-pic.css);
+@import url(../blocks/header/__cover-text/header__cover-text.css);
 @import url(../blocks/header/__route/header__route.css);
+@import url(../blocks/header/__container/header__container.css);
 
+
+@import url(../blocks/description/descrition.css);
 @import url(../blocks/description/__text/description__text.css);
 @import url(../blocks/description/__title/description__title.css);
 @import url(../blocks/description/__entry/description__entry.css);
 @import url(../blocks/description/__entries/description__entries.css);
 
 @import url(../blocks/gallery/gallery.css);
+@import url(../blocks/gallery/__container/gallery__container.css);
 @import url(../blocks/gallery/__card/gallery__card.css);
 
 @import url(../blocks/cards/cards.css);
@@ -32,9 +40,12 @@
 @import url(../blocks/cards/__url-block/cards__url-block.css);
 
 
+@import url(../blocks/baikal/baikal.css);
+@import url(../blocks/baikal/__content/baikal__content.css);
 @import url(../blocks/baikal/__image/baikal__image.css);
 @import url(../blocks/baikal/__title/baikal__title.css);
 @import url(../blocks/baikal/__subtitle/baikal__subtitle.css);
+@import url(../blocks/baikal/__color-overlay/baikal__color-overlay.css);
 
 
 @import url(../blocks/footer/__container/footer__container.css);

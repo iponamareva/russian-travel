@@ -10,27 +10,39 @@
 </head>
 <body>
   <div class="page">
+
     <header class="header">
-
-      <img class="header__logo" src="images/logo.png" alt="Логотип">
-      <a class="header__lang header__lang_value_ru">RU</a>
-      <a class="header__lang header__lang_value_en">EN</a>
-
-      <h1 class="header__title">
-        Путешествия по России
-      </h1>
-
-      <p class="header__subtitle">
-        Настоящая страна не в выпусках новостей, а здесь.
-      </p>
-
-      <img class="header__cover-pic" src="images/sleeping_girl.png" alt="Девушка в поезде"> 
-      <!-- <img class="header__route" src="images/travel_path.png"> -->
       
-      <!-- <div class="header__square-pic rotation"></div>
-      <div class="header__main-illustration"></div> -->
+      <img class="header__logo" src="images/logo.png" alt="Логотип">
+
+      <div class="header__lang-container">
+        <a class="header__lang header__lang_value_ru">RU</a>
+        <a class="header__lang header__lang_value_en">EN</a>
+      </div>
+
+      <div class="header__container">
+
+        <h1 class="header__title">
+          Путешествия по России
+        </h1>
+
+        <p class="header__subtitle">
+          Настоящая страна не в выпусках новостей, а здесь.
+        </p>
+
+        <div class="header__cover-container">
+          <img class="header__cover-pic" src="images/sleeping_girl.png" alt="Девушка в поезде">
+          <p class="header__cover-text">ВАША ПОЛКА – ВЕРХНЯЯ</p>
+        </div>
+        
+        <!-- <img class="header__route" src="images/travel_path.png"> -->
+        
+        <!-- <div class="header__square-pic rotation"></div>
+        <div class="header__main-illustration"></div> -->
+    </div>
 
     </header>
+
 
     <main class="content">
       <section class="description">
@@ -48,18 +60,20 @@
 
       <section>
         <div class=gallery>
-          <img class="gallery__card" src="images/img1.png" alt="Природа">
-          <img class="gallery__card" src="images/img2.png" alt="Природа">
-          <img class="gallery__card" src="images/img3.png" alt="Природа">
-          <img class="gallery__card" src="images/img4.png" alt="Природа">
-          <img class="gallery__card" src="images/img5.png" alt="Природа">
-          <img class="gallery__card" src="images/img6.png" alt="Природа">
-          <img class="gallery__card" src="images/img7.png" alt="Природа">
-          <img class="gallery__card" src="images/img8.png" alt="Природа">
-          <img class="gallery__card" src="images/img9.png" alt="Природа">
-          <img class="gallery__card" src="images/img10.png" alt="Природа">
-          <img class="gallery__card" src="images/img11.png" alt="Природа">
-          <img class="gallery__card" src="images/img12.png" alt="Природа">
+          <div class="gallery__container">
+            <img class="gallery__card" src="images/img1.png" alt="Природа">
+            <img class="gallery__card" src="images/img2.png" alt="Природа">
+            <img class="gallery__card" src="images/img3.png" alt="Природа">
+            <img class="gallery__card" src="images/img4.png" alt="Природа">
+            <img class="gallery__card" src="images/img5.png" alt="Природа">
+            <img class="gallery__card" src="images/img6.png" alt="Природа">
+            <img class="gallery__card" src="images/img7.png" alt="Природа">
+            <img class="gallery__card" src="images/img8.png" alt="Природа">
+            <img class="gallery__card" src="images/img9.png" alt="Природа">
+            <img class="gallery__card" src="images/img10.png" alt="Природа">
+            <img class="gallery__card" src="images/img11.png" alt="Природа">
+            <img class="gallery__card" src="images/img12.png" alt="Природа">
+          </div>
         </div>
     </section>
 
@@ -206,8 +220,14 @@
       </section>
 
       <section class="baikal">
-        <img class="baikal__image" src="images/trains.png" alt="Железнодорожный вокзал">
-
+        <div class="baikal__content">
+          <!-- <div class="baikal__color-overlay"> -->
+            <h2 class="baikal__title">До Байкала "на собаках"</h2>
+            <p class="baikal__subtitle">По мотивам учебной темы о Транссибе — путешествие от столицы до Байкала на электричках.</p>
+          
+          <!-- <img class="baikal__image" src="images/trains.png" alt="Железнодорожный вокзал"> -->
+        <!-- </div> -->
+      </div>
       </section>
     </main> 
 

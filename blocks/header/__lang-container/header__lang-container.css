@@ -1,0 +1,21 @@
+.header__lang-container {
+    position: absolute;
+    top: 46px;
+    right: 48px;
+}
+
+@media (max-width: 1024px) {
+}
+
+@media (max-width: 768px) {
+    .header__lang-container {
+        right: 24px;
+    }
+}
+
+@media (max-width: 320px) {
+    .header__lang-container {
+        right: 16px;
+        top: 30px;
+    }
+}

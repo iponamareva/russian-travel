@@ -4,4 +4,26 @@
     margin-left: 0px;
     margin-top: 0px;
     margin-bottom: 48px;
+    max-width: 460px;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .cards__item-title {
+        font-size: 42px;
+        line-height: 46px;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 768px) {
+    .cards__item-title {
+        font-size: 32px;
+        line-height: 35px;
+    }
+}
+
+@media (max-width: 320px) {
+    .cards__item-title {
+        font-size: 32px;
+        line-height: 35px;
+    }
 }

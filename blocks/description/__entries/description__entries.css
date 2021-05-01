@@ -1,4 +1,5 @@
 .description__entries {
-    margin: 0 auto 0;
-    margin-left: 148px;
+    margin: 0;
+    max-width: 690px;
+    max-width: 288px;
 }

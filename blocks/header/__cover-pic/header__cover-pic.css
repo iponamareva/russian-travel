@@ -1,4 +1,11 @@
 .header__cover-pic {
   display: block;
   margin: 0 auto 0;
+  width: 100%;
 }
+
+/* @media (min-width: 1280px) {
+  .header__cover-pic {
+    
+  }
+} */
