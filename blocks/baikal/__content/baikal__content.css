@@ -4,6 +4,8 @@
     background-blend-mode: overlay;
     padding-top: 245px;
     padding-bottom: 245px;
+    max-width: 1184px;
+    margin: 0 auto 0;
 }
 
 .baikal__content:hover {
