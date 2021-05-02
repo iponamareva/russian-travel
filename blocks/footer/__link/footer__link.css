@@ -3,8 +3,25 @@
     margin-top: 0;
     margin-bottom: 0;
     margin-left: 0;
+    color: white;
+    text-decoration: none;
+}
+
+.footer__link:hover {
+    opacity: 0.8;
+    transition: opacity 0.5s linear;
 }
 
 .footer__link:last-child {
     margin-right: 0;
+}
+
+@media (max-width: 767px) {
+    .footer__link {
+        margin-right: 0;
+        margin-bottom: 32px;
+    }
+    .footer__link:last-child {
+        margin-bottom: 0px;
+    }
 }

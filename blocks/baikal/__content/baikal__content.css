@@ -6,6 +6,13 @@
     padding-bottom: 245px;
 }
 
+.baikal__content:hover {
+    background: url(../../../images/trains.png) rgba(0, 0, 0, 0.8);
+    background-size: cover;
+    background-blend-mode: overlay;
+    transition: background-color 0.5s linear 0s;
+}
+
 /* @media (max-width: 1279px) {
     .baikal__content {
         padding-top: 195px;

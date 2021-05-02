@@ -1,9 +1,7 @@
 .cards__item-title {
     font-size: 72px;
     line-height: 76px;
-    margin-left: 0px;
-    margin-top: 0px;
-    margin-bottom: 48px;
+    margin: 0;
     max-width: 460px;
 }
 
@@ -18,7 +16,6 @@
     .cards__item-title {
         font-size: calc(32px + 10 * (100vw - 320px)/(768 - 320));
         line-height: calc(35px + 11 * (100vw - 320px)/(768 - 320));
-        margin-bottom: 32px;
     }
 }
 
@@ -26,6 +23,19 @@
     .cards__item-title {
         font-size: 32px;
         line-height: 35px;
-        margin-bottom: 32px;
     }
 }
+
+@media (max-width: 690px) {
+    .cards__item-title {
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+  }
+  
+  @media (max-width: 320px) {
+    .cards__item-title {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+  }

@@ -48,7 +48,7 @@
 @import url(../blocks/baikal/__subtitle/baikal__subtitle.css);
 @import url(../blocks/baikal/__color-overlay/baikal__color-overlay.css);
 
-
+@import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__container/footer__container.css);
 @import url(../blocks/footer/__links/footer__links.css);
 @import url(../blocks/footer/__link/footer__link.css);

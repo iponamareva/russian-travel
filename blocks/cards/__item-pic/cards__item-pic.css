@@ -15,16 +15,15 @@
     }
 }
 
-@media (max-width: 768px) {
+@media (min-width: 690px) and (max-width: 768px) {
     .cards__item-pic {
         width: 340px;
-        margin-bottom: 32px;
     }
 }
 
-@media (min-width: 320px) and (max-width: 768px) {
+@media (min-width: 320px) and (max-width: 690px) {
     .cards__item-pic {
-        width: 100%;
+       width: 100%
     }
 }
 

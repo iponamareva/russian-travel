@@ -1,12 +1,6 @@
 .page {
-    background-color: #3c3c3c;
+    background-color: #2A2C2F;
     color: white;
-    font-family: 'Helvetica Neue', Arial, sans-serif;
+    font-family: 'Inter', 'Helvetica Neue', Arial, sans-serif;
     padding-bottom: 24px;
 }
-
-/* @media (max-width: 720px) {
-    .page {
-        background-color: red;
-    }
-} */

@@ -21,15 +21,28 @@
 
 @media (max-width: 768px) {
     .cards {
+        margin-bottom: 90px;
         padding-left: 24px;
         padding-right: 24px;
-        margin-bottom: 66px;
+    }
+}
+
+@media (max-width: 690px) {
+    .cards {
+        /* паддинга нет, у текста появились паддинги */
+        /* padding-left: 24px;
+        padding-right: 24px; */
+        padding: 0;
+        
     }
 }
 
 @media (max-width: 320px) {
     .cards {
-        padding-left: 16px;
-        padding-right: 16px;
+        /* паддинга нет, у текста появились паддинги */
+        /* padding-left: 16px;
+        padding-right: 16px; */
+        padding: 0;
+        margin-bottom: 66px;
     }
 }
