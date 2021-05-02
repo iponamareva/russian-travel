@@ -4,3 +4,9 @@
     align-items: flex-start;
     justify-content: flex-end;
 }
+
+@media (min-width: 320px) and (max-width: 768px) {
+    .cards__url-block {
+        margin-bottom: 32px;
+    }
+}

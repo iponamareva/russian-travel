@@ -18,6 +18,7 @@
 @media (max-width: 768px) {
     .cards__item-pic {
         width: 340px;
+        margin-bottom: 32px;
     }
 }
 

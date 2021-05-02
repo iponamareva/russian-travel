@@ -6,3 +6,17 @@
     margin: 0 auto 32px;
     max-width: 560px;
 }
+
+@media (min-width: 320px) and (max-width: 768px) {
+    .baikal__title {
+        font-size: calc(32px + 40 * (100vw - 320px)/(768 - 320));
+        line-height: calc(35px + 41 * (100vw - 320px)/(768 - 320));
+    }
+}
+
+@media (max-width: 320px) {
+    .baikal__title {
+        font-size: 32px;
+        line-height: 35px;
+    }
+}
