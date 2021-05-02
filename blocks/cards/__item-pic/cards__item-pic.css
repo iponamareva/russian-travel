@@ -23,7 +23,7 @@
 
 @media (min-width: 320px) and (max-width: 690px) {
     .cards__item-pic {
-       width: 100%
+       width: 100%;
     }
 }
 
