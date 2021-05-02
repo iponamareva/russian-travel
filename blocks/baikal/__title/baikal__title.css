@@ -7,6 +7,13 @@
     max-width: 560px;
 }
 
+@media (max-width: 720px) {
+    .baikal__title {
+        font-size: 42px;
+        line-height: 46px;
+    }
+}
+
 /* @media (min-width: 320px) and (max-width: 768px) {
     .baikal__title {
         font-size: calc(32px + 40 * (100vw - 320px)/(768 - 320));
@@ -14,12 +21,12 @@
     }
 } */
 
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
     .baikal__title {
         font-size: 32px;
         line-height: 35px;
     }
-}
+} */
 
 @media (max-width: 320px) {
     .baikal__title {
