@@ -1,33 +1,19 @@
 .baikal__content {
-    background: url(../../../images/trains.png) rgba(0, 0, 0, 0.3);
+    background: url(../../../images/trains.png) rgba(42, 44, 47, 0.3);
     background-size: cover;
     background-blend-mode: overlay;
     padding-top: 245px;
     padding-bottom: 245px;
     max-width: 1184px;
     margin: 0 auto 0;
-}
-
-.baikal__content:hover {
-    background: url(../../../images/trains.png) rgba(0, 0, 0, 0.8);
-    background-size: cover;
-    background-blend-mode: overlay;
     transition: background-color 0.5s linear 0s;
 }
 
-/* @media (max-width: 1279px) {
-    .baikal__content {
-        padding-top: 195px;
-        padding-bottom: 195px;
-    }
+.baikal__content:hover {
+    background: url(../../../images/trains.png) rgba(42, 44, 47, 0.8);
+    background-size: cover;
+    background-blend-mode: overlay;
 }
-
-@media (max-width: 1023px) {
-    .baikal__content {
-        padding-top: 115px;
-        padding-bottom: 115px;
-    }
-} */
 
  @media (min-width: 1024px) and (max-width: 1280px) {
     .baikal__content {

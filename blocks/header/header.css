@@ -1,6 +1,14 @@
 .header {
-    margin-bottom: 92px;
-    /* padding-top: 28px; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 1184px;
+    margin: 0 auto 56px;
 }
 
+@media (max-width: 1024px) {
+    .header {
+        margin-bottom: 48px;
+    }  
+}
 

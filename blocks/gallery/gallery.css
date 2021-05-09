@@ -2,19 +2,31 @@
     padding-left: 48px;
     padding-right: 48px;
     margin-bottom: 92px;
+    margin: 0 auto 0;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 16px;
+    max-width: 1184px;
 }
 
-/* @media (max-width: 320px) {
+@media (max-width: 1024px) {
     .gallery {
-        padding-right: 16px;
-        padding-left: 16px;
-    }  
-} */
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(4, 1fr);
+        gap: 14px;
+    }
+}
 
 @media (max-width: 768px) {
     .gallery {
         padding-left: 24px;
         padding-right: 24px;
+        margin-bottom: 88px;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(6, 1fr);
+        gap: 16px;
     }  
 }
 
@@ -22,5 +34,9 @@
     .gallery {
         padding-right: 16px;
         padding-left: 16px;
+        margin-bottom: 64px;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(12, 1fr);
+        gap: 12px;
     }  
 }

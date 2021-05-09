@@ -1,0 +1,29 @@
+.lead {
+    margin-bottom: 92px;
+    padding-left: 148px;
+    padding-right: 148px;
+}
+
+@media (max-width: 1024px) {
+    .lead {
+        padding-left: 48px;
+        padding-right: 48px;
+    }
+}
+
+@media (max-width: 768px) {
+    .lead {
+        margin-bottom: 88px;
+        padding-left: 0;
+        padding-right: 0;
+    }  
+}
+
+@media (max-width: 320px) {
+    .lead {
+        margin-bottom: 64px;
+    }   
+}
+
+
+
