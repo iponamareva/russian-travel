@@ -33,7 +33,7 @@
 @import url(../blocks/cards/__item-url/cards__item-url.css);
 @import url(../blocks/cards/__item-url-text/cards__item-url-text.css);
 @import url(../blocks/cards/__item-title/cards__item-title.css);
-@import url(../blocks/cards/cards__item-paragraph/cards__item-paragraph.css);
+@import url(../blocks/cards/__item-paragraph/cards__item-paragraph.css);
 @import url(../blocks/cards/__item-text/cards__item-text.css);
 @import url(../blocks/cards/__item-pic/cards__item-pic.css);
 @import url(../blocks/cards/__url-block/cards__url-block.css);

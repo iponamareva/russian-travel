@@ -1,6 +1,7 @@
 .cards__item-paragraph {
   margin-top: 0;
   margin-bottom: 26px;
+  line-height: 29.34px;
 }
 
 .cards__item-paragraph:last-child {
@@ -10,12 +11,6 @@
 @media (max-width: 320px) {
   .cards__item-paragraph {
     margin-bottom: 25px;
-  }
-}
-
-@media (max-width: 1280px) {
-  .cards__item-paragraph {
-    line-height: 29.34px;
   }
 }
 
